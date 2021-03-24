@@ -111,7 +111,7 @@ def train_segmentation_model(model, criterion, optimizer, scheduler, num_epochs,
       validation_dices.append(evaluating_dice / float(len(validation_dataloader.dataset)))
 
       if validation_losses[-1] < best_loss:
-        torch.save(model.state_dict(), os.path.join("models", "model_{}.pth".format(epoch + 1)))
+        torch.save(model.state_dict(), os.path.join("models", "segmentation", "model_{}.pth".format(epoch + 1)))
         best_loss = validation_losses[-1]
 
     scheduler.step(validation_losses[-1])

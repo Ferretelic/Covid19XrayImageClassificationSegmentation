@@ -42,4 +42,4 @@ def plot_segmentation_history(history, num_epochs, history_directory):
   sns.lineplot(x=range(num_epochs), y=validation_dices, legend="brief", label="validation dice")
   plt.xlabel("epoch")
   plt.ylabel("dice")
-  plt.savefig(os.path.join("histories", history_directory, "accuracy.png"))
+  plt.savefig(os.path.join("histories", history_directory, "dice.png"))
