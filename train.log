@@ -1,0 +1,105 @@
+Loaded pretrained weights for efficientnet-b5
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.795, Validation Loss: 0.723
+Train Accuracy: 0.668, Validation Accuracy 0.696
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.701, Validation Loss: 0.696
+Train Accuracy: 0.710, Validation Accuracy 0.710
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.673, Validation Loss: 0.702
+Train Accuracy: 0.720, Validation Accuracy 0.707
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.655, Validation Loss: 0.694
+Train Accuracy: 0.729, Validation Accuracy 0.710
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.636, Validation Loss: 0.699
+Train Accuracy: 0.735, Validation Accuracy 0.708
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.621, Validation Loss: 0.712
+Train Accuracy: 0.741, Validation Accuracy 0.705
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.602, Validation Loss: 0.722
+Train Accuracy: 0.749, Validation Accuracy 0.705
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Epoch     8: reducing learning rate of group 0 to 5.0000e-05.
+Train Loss: 0.575, Validation Loss: 0.722
+Train Accuracy: 0.759, Validation Accuracy 0.702
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.503, Validation Loss: 0.850
+Train Accuracy: 0.792, Validation Accuracy 0.665
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.440, Validation Loss: 0.932
+Train Accuracy: 0.820, Validation Accuracy 0.653
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.387, Validation Loss: 1.044
+Train Accuracy: 0.845, Validation Accuracy 0.642
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Epoch    12: reducing learning rate of group 0 to 5.0000e-06.
+Train Loss: 0.329, Validation Loss: 1.076
+Train Accuracy: 0.872, Validation Accuracy 0.657
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.281, Validation Loss: 1.094
+Train Accuracy: 0.893, Validation Accuracy 0.650
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.264, Validation Loss: 1.118
+Train Accuracy: 0.901, Validation Accuracy 0.656
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.254, Validation Loss: 1.155
+Train Accuracy: 0.904, Validation Accuracy 0.648
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Epoch    16: reducing learning rate of group 0 to 5.0000e-07.
+Train Loss: 0.248, Validation Loss: 1.178
+Train Accuracy: 0.906, Validation Accuracy 0.657
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.234, Validation Loss: 1.160
+Train Accuracy: 0.913, Validation Accuracy 0.654
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.239, Validation Loss: 1.156
+Train Accuracy: 0.912, Validation Accuracy 0.663
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Train Loss: 0.232, Validation Loss: 1.184
+Train Accuracy: 0.915, Validation Accuracy 0.647
+
+Warning: No valid output stream.
+Warning: No valid output stream.
+Epoch    20: reducing learning rate of group 0 to 5.0000e-08.
+Train Loss: 0.234, Validation Loss: 1.185
+Train Accuracy: 0.914, Validation Accuracy 0.649
+
