@@ -13,8 +13,8 @@ image_size = (224, 224)
 test_dataset = Covi19XrayImageDatasetSegmentation(dataset_path, image_size, "test")
 
 device = torch.device("cuda")
-model = segmentation_models_pytorch.Unet("resnet50", encoder_weights=None, classes=1, activation=None).to(device)
-model.load_state_dict(torch.load("./models/segmentation/model_32.pth"))
+model = segmentation_models_pytorch.Unet("resnet101", encoder_weights=None, classes=1, activation=None).to(device)
+model.load_state_dict(torch.load("./model_archives/model_resnet101_17.pth"))
 
 figure, axes = plt.subplots(num_images, 2, figsize=(5, 7.5))
 sample_image_index = np.random.choice(np.arange(len(test_dataset)), num_images)
@@ -39,4 +39,4 @@ for index, ((ax1, ax2), image_index) in enumerate(zip(axes, sample_image_index))
     ax2.set_title("Predicted Mask")
 
 figure.tight_layout()
-figure.savefig("./images/predicted_sample.png")
+figure.savefig("./images/predicted_sample_resnet101.png")
